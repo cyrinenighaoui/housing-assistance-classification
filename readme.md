@@ -1,6 +1,6 @@
 # Classification des demandes d’hébergement
 
-Projet de data science consacré à la préparation et à la modélisation de demandes d’hébergement. L’objectif est de prédire la variable `granted_number_of_nights`, qui comporte quatre classes (`0`, `1`, `2` et `3`), à partir des informations relatives aux demandes et aux individus concernés.
+Projet consacré à la préparation et à la modélisation de demandes d’hébergement. L’objectif est de prédire la variable `granted_number_of_nights`, qui comporte quatre classes (`0`, `1`, `2` et `3`), à partir des informations relatives aux demandes et aux individus concernés.
 
 ## Objectif du projet
 
@@ -8,10 +8,9 @@ Le projet met en place un pipeline complet permettant de :
 
 - explorer et nettoyer les données ;
 - traiter les valeurs manquantes et les valeurs incohérentes ;
-- construire des variables décrivant les ménages et leur vulnérabilité ;
+- construire des features ;
 - fusionner les informations issues des tables `requests` et `individuals` ;
-- entraîner et comparer des modèles de classification multiclasse ;
-- limiter les risques de fuite de données pendant la validation.
+- entraîner un modèle de classification multiclasse ;
 
 ## Données
 
@@ -74,7 +73,7 @@ Le notebook `02-modelisation.ipynb` contient actuellement :
 ### 1. Cloner le dépôt
 
 ```bash
-git clone URL_DU_DEPOT
+git clone https://github.com/cyrinenighaoui/housing-assistance-classification.git
 cd housing-assistance-classification
 ```
 
