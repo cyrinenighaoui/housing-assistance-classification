@@ -68,6 +68,15 @@ Le notebook `02-modelisation.ipynb` contient actuellement :
 - l’utilisation de pondérations pour mieux prendre en compte les classes minoritaires ;
 - l’early stopping et la sauvegarde du meilleur modèle.
 
+
+## Résultats obtenus
+
+| Modèle | Paramètres principaux | Score de validation | Meilleure itération |
+| --- | --- | ---: | ---: |
+| CatBoost initial | `iterations=1000`, `learning_rate=0.05`, `depth=8` | 0,4985 | 650 |
+| CatBoost optimisé | `iterations=1500`, `learning_rate=0.03`, `depth=7` | 0,4908 | 1272 |
+
+
 ## Installation
 
 ### 1. Cloner le dépôt
